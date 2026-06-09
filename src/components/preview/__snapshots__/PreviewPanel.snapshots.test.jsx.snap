@@ -1,0 +1,385 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`PreviewPanel snapshots > matches the dashboard template snapshot 1`] = `
+<DocumentFragment>
+  <section
+    class="panel-shell"
+  >
+    <div
+      class="panel-header"
+    >
+      LIVE PREVIEW
+    </div>
+    <div
+      class="panel-content preview-panel-content"
+    >
+      <div
+        class="preview-meta-bar"
+      >
+        <div>
+          <p
+            class="preview-meta-title"
+          >
+            Layout Canvas
+          </p>
+          <p
+            class="preview-meta-copy"
+          >
+            Rendered output from the current AST with live structure boundaries.
+          </p>
+        </div>
+        <button
+          class="preview-guide-toggle preview-guide-toggle-active"
+          type="button"
+        >
+          Hide Layout Boundaries
+        </button>
+      </div>
+      <div
+        class="preview-canvas"
+      >
+        <div
+          class="preview-stage"
+        >
+          <div
+            class="preview-row preview-node-debug"
+            role="button"
+            tabindex="0"
+          >
+            <span
+              class="preview-debug-label"
+            >
+              ROW
+            </span>
+            <div
+              class="preview-col preview-node-debug"
+              role="button"
+              style="width: 30%; flex-basis: 30%; max-width: 30%;"
+              tabindex="0"
+            >
+              <span
+                class="preview-debug-label"
+              >
+                COL 30%
+              </span>
+              <button
+                class="preview-h1 preview-leaf-button"
+                type="button"
+              >
+                Sidebar
+              </button>
+              <div
+                class="preview-info preview-node-info preview-node-debug"
+                role="button"
+                tabindex="0"
+              >
+                <span
+                  class="preview-debug-label"
+                >
+                  INFO
+                </span>
+                <button
+                  class="preview-text preview-leaf-button"
+                  type="button"
+                >
+                  Navigation
+                </button>
+              </div>
+              <button
+                class="preview-text preview-leaf-button"
+                type="button"
+              >
+                Projects
+              </button>
+              <button
+                class="preview-text preview-leaf-button"
+                type="button"
+              >
+                Reports
+              </button>
+              <button
+                class="preview-text preview-leaf-button"
+                type="button"
+              >
+                Settings
+              </button>
+            </div>
+            <div
+              class="preview-col preview-node-debug"
+              role="button"
+              style="width: 70%; flex-basis: 70%; max-width: 70%;"
+              tabindex="0"
+            >
+              <span
+                class="preview-debug-label"
+              >
+                COL 70%
+              </span>
+              <button
+                class="preview-h1 preview-leaf-button"
+                type="button"
+              >
+                Main Content
+              </button>
+              <button
+                class="preview-text preview-leaf-button"
+                type="button"
+              >
+                Overview for your current workspace.
+              </button>
+              <div
+                class="preview-info preview-node-info preview-node-debug"
+                role="button"
+                tabindex="0"
+              >
+                <span
+                  class="preview-debug-label"
+                >
+                  INFO
+                </span>
+                <button
+                  class="preview-text preview-leaf-button"
+                  type="button"
+                >
+                  Status: Healthy
+                </button>
+              </div>
+              <button
+                class="preview-text preview-leaf-button"
+                type="button"
+              >
+                Recent activity appears here.
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</DocumentFragment>
+`;
+
+exports[`PreviewPanel snapshots > matches the documentation template snapshot 1`] = `
+<DocumentFragment>
+  <section
+    class="panel-shell"
+  >
+    <div
+      class="panel-header"
+    >
+      LIVE PREVIEW
+    </div>
+    <div
+      class="panel-content preview-panel-content"
+    >
+      <div
+        class="preview-meta-bar"
+      >
+        <div>
+          <p
+            class="preview-meta-title"
+          >
+            Layout Canvas
+          </p>
+          <p
+            class="preview-meta-copy"
+          >
+            Rendered output from the current AST with live structure boundaries.
+          </p>
+        </div>
+        <button
+          class="preview-guide-toggle preview-guide-toggle-active"
+          type="button"
+        >
+          Hide Layout Boundaries
+        </button>
+      </div>
+      <div
+        class="preview-canvas"
+      >
+        <div
+          class="preview-stage"
+        >
+          <button
+            class="preview-h1 preview-leaf-button"
+            type="button"
+          >
+            Documentation Page
+          </button>
+          <div
+            class="preview-row preview-node-debug"
+            role="button"
+            tabindex="0"
+          >
+            <span
+              class="preview-debug-label"
+            >
+              ROW
+            </span>
+            <div
+              class="preview-col preview-node-debug"
+              role="button"
+              style="width: 35%; flex-basis: 35%; max-width: 35%;"
+              tabindex="0"
+            >
+              <span
+                class="preview-debug-label"
+              >
+                COL 35%
+              </span>
+              <button
+                class="preview-h2 preview-leaf-button"
+                type="button"
+              >
+                Navigation
+              </button>
+              <button
+                class="preview-text preview-leaf-button"
+                type="button"
+              >
+                Getting Started
+              </button>
+              <button
+                class="preview-text preview-leaf-button"
+                type="button"
+              >
+                Components
+              </button>
+              <button
+                class="preview-text preview-leaf-button"
+                type="button"
+              >
+                Examples
+              </button>
+            </div>
+            <div
+              class="preview-col preview-node-debug"
+              role="button"
+              style="width: 65%; flex-basis: 65%; max-width: 65%;"
+              tabindex="0"
+            >
+              <span
+                class="preview-debug-label"
+              >
+                COL 65%
+              </span>
+              <button
+                class="preview-h2 preview-leaf-button"
+                type="button"
+              >
+                Overview
+              </button>
+              <button
+                class="preview-text preview-leaf-button"
+                type="button"
+              >
+                Use this template to sketch a documentation-style layout.
+              </button>
+              <div
+                class="preview-info preview-node-info preview-node-debug"
+                role="button"
+                tabindex="0"
+              >
+                <span
+                  class="preview-debug-label"
+                >
+                  INFO
+                </span>
+                <button
+                  class="preview-text preview-leaf-button"
+                  type="button"
+                >
+                  Tip: keep content blocks concise for clearer previews.
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</DocumentFragment>
+`;
+
+exports[`PreviewPanel snapshots > matches the starter template snapshot 1`] = `
+<DocumentFragment>
+  <section
+    class="panel-shell"
+  >
+    <div
+      class="panel-header"
+    >
+      LIVE PREVIEW
+    </div>
+    <div
+      class="panel-content preview-panel-content"
+    >
+      <div
+        class="preview-meta-bar"
+      >
+        <div>
+          <p
+            class="preview-meta-title"
+          >
+            Layout Canvas
+          </p>
+          <p
+            class="preview-meta-copy"
+          >
+            Rendered output from the current AST with live structure boundaries.
+          </p>
+        </div>
+        <button
+          class="preview-guide-toggle preview-guide-toggle-active"
+          type="button"
+        >
+          Hide Layout Boundaries
+        </button>
+      </div>
+      <div
+        class="preview-canvas"
+      >
+        <div
+          class="preview-stage"
+        >
+          <div
+            class="preview-row preview-node-debug"
+            role="button"
+            tabindex="0"
+          >
+            <span
+              class="preview-debug-label"
+            >
+              ROW
+            </span>
+            <div
+              class="preview-col preview-node-debug"
+              role="button"
+              style="width: 100%; flex-basis: 100%; max-width: 100%;"
+              tabindex="0"
+            >
+              <span
+                class="preview-debug-label"
+              >
+                COL 100%
+              </span>
+              <button
+                class="preview-h1 preview-leaf-button"
+                type="button"
+              >
+                Welcome
+              </button>
+              <button
+                class="preview-text preview-leaf-button"
+                type="button"
+              >
+                Describe your layout here.
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</DocumentFragment>
+`;
