@@ -383,5 +383,5 @@ These are future ideas, not part of the frozen current release.
 
 **Aaryan Kuchekar**
 
-- GitHub: `https://github.com/your-github-username`
-- LinkedIn: `https://www.linkedin.com/in/your-linkedin-handle`
+- GitHub: `https://github.com/Aaryan0612`
+- LinkedIn: `https://www.linkedin.com/in/aaryan-kuchekar-184086323/`
