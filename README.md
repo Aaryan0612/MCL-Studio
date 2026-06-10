@@ -1,4 +1,4 @@
-# Markdown Component Layout Engine
+# MCL Studio
 
 ![Project Banner](docs/screenshots/banner.png)
 
@@ -9,9 +9,9 @@
 [![Vite](https://img.shields.io/badge/vite-8-646cff?style=for-the-badge&logo=vite&logoColor=white)](https://vite.dev/)
 [![React](https://img.shields.io/badge/react-19-149eca?style=for-the-badge&logo=react&logoColor=white)](https://react.dev/)
 
-Parser-driven layout authoring for structured markdown.
+Markdown Component Layout Studio for parser-driven layout authoring.
 
-Markdown Component Layout Engine (MCL) is a React + Vite application that turns a constrained markdown-based layout language into a validated Abstract Syntax Tree, an inspectable graph, and a live visual canvas. It is built as both a product-facing authoring experience and an engineering-facing parsing toolchain.
+MCL Studio, short for Markdown Component Layout Studio, is a React + Vite application that turns a constrained markdown-based layout language into a validated Abstract Syntax Tree, an inspectable graph, and a live visual canvas. It is built as both a product-facing authoring experience and an engineering-facing parsing toolchain.
 
 ## Why This Project Exists
 
@@ -24,7 +24,7 @@ This project exists to explore a different model:
 - explicit grammar, AST construction, validation, and diagnostics
 - a live editor where the author can inspect both the rendered result and the tree that produced it
 
-MCL was designed to answer a practical question: what if layout documents were treated like a small language with compiler-style feedback, instead of just formatted text?
+MCL Studio was designed to answer a practical question: what if layout documents were treated like a small language with compiler-style feedback, instead of just formatted text?
 
 ## Features
 

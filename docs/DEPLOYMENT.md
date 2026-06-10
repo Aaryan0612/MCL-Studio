@@ -16,7 +16,7 @@ Runtime characteristics:
 
 The repository includes:
 
-- `/Users/aaryan_kuchekar/ITM/Sem2/ReactMLE/vercel.json`
+- `vercel.json`
 
 Configured values:
 

@@ -1,8 +1,8 @@
 {
   "name": "reactmle",
   "private": true,
-  "version": "1.0.0",
-  "description": "A parser-driven Markdown Component Layout Engine with AST inspection, graph visualization, validation, templates, export, and end-to-end QA coverage.",
+  "version": "1.0.1",
+  "description": "MCL Studio is a parser-driven Markdown Component Layout Studio with AST inspection, graph visualization, validation, templates, export, and end-to-end QA coverage.",
   "license": "MIT",
   "keywords": [
     "markdown",

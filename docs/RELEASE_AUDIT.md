@@ -53,11 +53,11 @@ Verified:
 
 ## Recommended First GitHub Release Notes
 
-Version: `v1.0.0`
+Version: `v1.0.1`
 
 Highlights:
 
-- shipped parser-driven Markdown Component Layout Engine
+- shipped MCL Studio, a parser-driven Markdown Component Layout Studio
 - added tokenizer, AST builder, structural validator, diagnostics, and renderer pipeline
 - added AST outline inspector and graph view
 - added template loading, persistence, and AST export

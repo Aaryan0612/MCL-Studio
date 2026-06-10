@@ -1,5 +1,6 @@
 export const UI_TEXT = {
-  appTitle: 'Markdown Component Layout Engine',
+  appTitle: 'MCL Studio',
+  appLongName: 'Markdown Component Layout Studio',
   workspaceLabel: 'Workspace',
   editorLabel: 'EDITOR',
   previewLabel: 'LIVE PREVIEW',

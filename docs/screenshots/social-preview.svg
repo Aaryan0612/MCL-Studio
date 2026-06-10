@@ -1,0 +1,53 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="630" fill="#080A0F"/>
+  <rect x="24" y="24" width="1152" height="582" rx="28" fill="url(#bg)"/>
+  <rect x="56" y="52" width="1088" height="72" rx="20" fill="#10131B" stroke="#1D2230"/>
+  <rect x="84" y="70" width="42" height="42" rx="12" fill="#171C27"/>
+  <path d="M99 84L90 91L99 98" stroke="#F4EFE2" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M111 84L120 91L111 98" stroke="#F4EFE2" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="105" cy="101" r="4.5" fill="#8B5CF6"/>
+  <text x="146" y="84" fill="#F4EFE2" font-family="Georgia, 'Times New Roman', serif" font-size="30" font-weight="700">MCL Studio</text>
+  <text x="146" y="110" fill="#9EA7B7" font-family="Inter, Arial, sans-serif" font-size="16">Markdown Component Layout Studio</text>
+  <rect x="56" y="152" width="390" height="414" rx="24" fill="#11141C" stroke="#232938"/>
+  <text x="82" y="192" fill="#8E98AC" font-family="Inter, Arial, sans-serif" font-size="14" letter-spacing="0.22em">EDITOR</text>
+  <rect x="82" y="216" width="338" height="324" rx="18" fill="#1A1E28" stroke="#2F3750"/>
+  <text x="110" y="262" fill="#F4EFE2" font-family="'JetBrains Mono', monospace" font-size="26">:::row</text>
+  <text x="110" y="302" fill="#C9D0DE" font-family="'JetBrains Mono', monospace" font-size="24">:::col width=35</text>
+  <text x="110" y="342" fill="#8B5CF6" font-family="'JetBrains Mono', monospace" font-size="24">## Navigation</text>
+  <text x="110" y="382" fill="#F4EFE2" font-family="'JetBrains Mono', monospace" font-size="22">Getting Started</text>
+  <text x="110" y="418" fill="#F4EFE2" font-family="'JetBrains Mono', monospace" font-size="22">Components</text>
+  <text x="110" y="454" fill="#F4EFE2" font-family="'JetBrains Mono', monospace" font-size="22">Examples</text>
+  <text x="110" y="506" fill="#6F7790" font-family="'JetBrains Mono', monospace" font-size="22">… parser-driven layout source</text>
+  <rect x="470" y="152" width="674" height="414" rx="24" fill="#0F1219" stroke="#232938"/>
+  <text x="500" y="192" fill="#8E98AC" font-family="Inter, Arial, sans-serif" font-size="14" letter-spacing="0.22em">LAYOUT CANVAS</text>
+  <rect x="500" y="216" width="614" height="320" rx="28" fill="#EEE6D8"/>
+  <text x="532" y="264" fill="#201B18" font-family="Georgia, 'Times New Roman', serif" font-size="44" font-weight="700">Enterprise Workspace</text>
+  <rect x="532" y="296" width="170" height="196" rx="20" fill="#DED2FA" stroke="#8B5CF6" stroke-width="3"/>
+  <rect x="718" y="296" width="364" height="84" rx="20" fill="#F7F1E7" stroke="#CFC1ED"/>
+  <rect x="718" y="396" width="172" height="96" rx="20" fill="#DED2FA" stroke="#8B5CF6" stroke-width="3"/>
+  <rect x="910" y="396" width="172" height="96" rx="20" fill="#F7F1E7" stroke="#CFC1ED"/>
+  <text x="546" y="322" fill="#7C3AED" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="700">COL 35%</text>
+  <text x="732" y="322" fill="#7C3AED" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="700">COL 65%</text>
+  <text x="548" y="356" fill="#17120F" font-family="Georgia, 'Times New Roman', serif" font-size="30" font-weight="700">Navigation</text>
+  <text x="548" y="392" fill="#40362F" font-family="Georgia, 'Times New Roman', serif" font-size="20">Getting Started</text>
+  <text x="548" y="424" fill="#40362F" font-family="Georgia, 'Times New Roman', serif" font-size="20">Components</text>
+  <text x="548" y="456" fill="#40362F" font-family="Georgia, 'Times New Roman', serif" font-size="20">Examples</text>
+  <text x="734" y="356" fill="#17120F" font-family="Georgia, 'Times New Roman', serif" font-size="30" font-weight="700">Overview</text>
+  <text x="734" y="404" fill="#40362F" font-family="Georgia, 'Times New Roman', serif" font-size="20">AST-aware rendering, validation,</text>
+  <text x="734" y="432" fill="#40362F" font-family="Georgia, 'Times New Roman', serif" font-size="20">and synchronized developer tooling.</text>
+  <text x="742" y="449" fill="#7C3AED" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="700">INFO</text>
+  <text x="744" y="474" fill="#201B18" font-family="Georgia, 'Times New Roman', serif" font-size="17">Parser metrics and structural diagnostics</text>
+  <text x="934" y="428" fill="#17120F" font-family="Georgia, 'Times New Roman', serif" font-size="23" font-weight="700">AST Graph</text>
+  <circle cx="958" cy="454" r="7" fill="#8B5CF6"/>
+  <circle cx="944" cy="478" r="6" fill="#201B18"/>
+  <circle cx="972" cy="478" r="6" fill="#201B18"/>
+  <path d="M958 454L944 478" stroke="#8B5CF6" stroke-width="3"/>
+  <path d="M958 454L972 478" stroke="#8B5CF6" stroke-width="3"/>
+  <text x="56" y="596" fill="#A7B0C0" font-family="Inter, Arial, sans-serif" font-size="20">Parser-driven markdown layouts with AST inspection, graph visualization, validation, export, and live preview.</text>
+  <defs>
+    <linearGradient id="bg" x1="72" y1="24" x2="1128" y2="606" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0C0F15"/>
+      <stop offset="1" stop-color="#090B10"/>
+    </linearGradient>
+  </defs>
+</svg>

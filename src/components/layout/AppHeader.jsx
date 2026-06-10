@@ -50,8 +50,8 @@ export function AppHeader({
       <div className="min-w-0 flex-1">
         <p className="app-brand">{UI_TEXT.appTitle}</p>
         <p className="app-subtitle">
-          Compose structure on the left. See the layout engine resolve it on the
-          right.
+          {UI_TEXT.appLongName}. Compose structure on the left. See the layout
+          engine resolve it on the right.
         </p>
       </div>
 

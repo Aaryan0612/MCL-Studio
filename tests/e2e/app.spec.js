@@ -14,9 +14,7 @@ test('boots with the starter template and rendered preview', async ({
 }) => {
   await page.goto('/');
 
-  await expect(
-    page.getByText('Markdown Component Layout Engine'),
-  ).toBeVisible();
+  await expect(page.getByText('MCL Studio')).toBeVisible();
   await expect(page.getByLabel('Layout editor')).toHaveValue(/# Welcome/);
   await expect(
     page.getByRole('button', { name: 'Welcome', exact: true }),
@@ -134,9 +132,7 @@ test('falls back safely when storage access throws', async ({ browser }) => {
 
   await page.goto('/');
 
-  await expect(
-    page.getByText('Markdown Component Layout Engine'),
-  ).toBeVisible();
+  await expect(page.getByText('MCL Studio')).toBeVisible();
   await expect(page.getByLabel('Layout editor')).toHaveValue(/# Welcome/);
   await expect(
     page.getByRole('button', { name: 'Welcome', exact: true }),
