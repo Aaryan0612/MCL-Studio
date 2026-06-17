@@ -13,6 +13,12 @@ Markdown Component Layout Studio for parser-driven layout authoring.
 
 MCL Studio, short for Markdown Component Layout Studio, is a React + Vite application that turns a constrained markdown-based layout language into a validated Abstract Syntax Tree, an inspectable graph, and a live visual canvas. It is built as both a product-facing authoring experience and an engineering-facing parsing toolchain.
 
+This repository contains:
+
+- the main MCL Studio application
+- release documentation and academic report artifacts under `docs/`
+- a separate private learning site under `study-handbook-site/` for viva preparation and deeper self-study
+
 ## Why This Project Exists
 
 Traditional markdown is excellent for linear content, but it breaks down when documents need intentional spatial structure. Headings, paragraphs, and lists are easy; dashboards, split panels, callout-driven documentation, and layout-aware composition are not.
@@ -254,9 +260,30 @@ Validated release checks:
 
 Detailed QA artifacts:
 
-- [Testing Strategy](docs/TESTING.md)
-- [QA Report](docs/QA_REPORT.md)
-- [Release Checklist](docs/RELEASE_CHECKLIST.md)
+- [Testing Strategy](<docs/md files/TESTING.md>)
+- [QA Report](<docs/md files/QA_REPORT.md>)
+- [Release Checklist](<docs/md files/RELEASE_CHECKLIST.md>)
+
+## Documentation
+
+Primary repository documentation and deliverables:
+
+- [Main academic report PDF](docs/MCL_AK_DH.pdf)
+- [Engineering handbook markdown](docs/MCL_Studio_Engineering_Handbook.md)
+- [Project report source](<docs/md files/MCL_Studio_Project_Report.md>)
+- [Project report DOCX](<docs/md files/MCL_Studio_Project_Report.docx>)
+- [Engineering handbook DOCX](<docs/md files/MCL_Studio_Engineering_Handbook.docx>)
+
+Supporting release docs:
+
+- [Deployment Notes](<docs/md files/DEPLOYMENT.md>)
+- [Project Status](<docs/md files/PROJECT_STATUS.md>)
+- [Release Audit](<docs/md files/RELEASE_AUDIT.md>)
+- [Release Notes v1.0.1](<docs/md files/RELEASE_NOTES_v1.0.1.md>)
+
+Personal study companion:
+
+- [Learning Console README](study-handbook-site/README.md)
 
 ## Installation
 
@@ -294,7 +321,7 @@ Quick path:
 npm run build
 ```
 
-Vercel configuration is included in [vercel.json](vercel.json), and the full deployment notes live in [docs/DEPLOYMENT.md](docs/DEPLOYMENT.md).
+Vercel configuration is included in [vercel.json](vercel.json), and the full deployment notes live in [Deployment Notes](<docs/md files/DEPLOYMENT.md>).
 
 Environment requirements:
 
@@ -307,14 +334,12 @@ Environment requirements:
 
 ```text
 docs/
-  architecture/
+  diagrams/
   screenshots/
-  viva/
-  DEPLOYMENT.md
-  QA_REPORT.md
-  RELEASE_AUDIT.md
-  RELEASE_CHECKLIST.md
-  TESTING.md
+  md files/
+  MCL_AK_DH.pdf
+  MCL_Studio_Engineering_Handbook.md
+  Sample-Report.docx
 
 src/
   components/
@@ -333,8 +358,29 @@ src/
   App.jsx
   main.jsx
 
+study-handbook-site/
+  src/
+  README.md
+  vite.config.js
+
 tests/
   e2e/
+```
+
+## Study Site
+
+This repository also includes a separate handbook-driven study website in `study-handbook-site/`. It is intentionally isolated from the main product so the learning experience can evolve without disrupting the shipping application.
+
+Run it with:
+
+```bash
+npm --prefix study-handbook-site run dev
+```
+
+Then open:
+
+```text
+http://127.0.0.1:4179
 ```
 
 ## Lessons Learned
@@ -383,5 +429,5 @@ These are future ideas, not part of the frozen current release.
 
 **Aaryan Kuchekar**
 
-- GitHub: `https://github.com/Aaryan0612`
-- LinkedIn: `https://www.linkedin.com/in/aaryan-kuchekar-184086323/`
+- GitHub: [Aaryan0612](https://github.com/Aaryan0612)
+- LinkedIn: [aaryan-kuchekar-184086323](https://www.linkedin.com/in/aaryan-kuchekar-184086323/)
